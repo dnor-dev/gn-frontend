@@ -46,6 +46,7 @@ export default function Home() {
                 type="text"
                 onChange={formik.handleChange}
                 value={formik.values.firstName}
+                isRequired
               />
             </FormControl>
 
@@ -57,6 +58,7 @@ export default function Home() {
                 type="text"
                 onChange={formik.handleChange}
                 value={formik.values.lastName}
+                isRequired
               />
             </FormControl>
 
@@ -68,6 +70,7 @@ export default function Home() {
                 type="email"
                 onChange={formik.handleChange}
                 value={formik.values.email}
+                isRequired
               />
             </FormControl>
 
@@ -79,6 +82,7 @@ export default function Home() {
                 type="text"
                 onChange={formik.handleChange}
                 value={formik.values.country}
+                isRequired
               />
             </FormControl>
 
@@ -90,6 +94,7 @@ export default function Home() {
                 type="text"
                 onChange={formik.handleChange}
                 value={formik.values.state}
+                isRequired
               />
             </FormControl>
 
@@ -101,6 +106,7 @@ export default function Home() {
                 type="number"
                 onChange={formik.handleChange}
                 value={formik.values.fee}
+                isRequired
               />
             </FormControl>
             <Button colorScheme="green" width={"full"} type="submit">
